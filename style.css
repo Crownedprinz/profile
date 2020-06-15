@@ -1,0 +1,85 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.content {
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.profile_div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile_img {
+    height: 33vh;
+    width: 33vh;
+}
+
+h1{
+    color: aliceblue;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 72px;
+    text-align: center;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+h2{
+    color: black;
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
+
+.list_div {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+ul.horizontal_list {
+    padding: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+ul.horizontal_list li {
+    display: inline;
+    font-family: 'Roboto Mono', monospace;
+    margin: 12px;
+}
+
+img.apps {
+    height: 12vh;
+    width: 12vh;
+}
+img.circle {
+    border-radius: 50%;
+}
+
+h4.contact {
+    text-align: start;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.hide {
+    color: transparent;
+    user-select: none;
+}
